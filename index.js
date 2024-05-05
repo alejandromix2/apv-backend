@@ -15,7 +15,7 @@ conectarDB();
 
  const dominiosPermitidos = [process.env.FRONTEND_URL];
 
-// Enable cors
+ // Enable cors
 app.use(
     cors({
       origin: '*',

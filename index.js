@@ -13,7 +13,6 @@ dotenv.config();
 
 conectarDB();
 
- const dominiosPermitidos = [process.env.FRONTEND_URL];
 
  // Enable cors
 app.use(
@@ -22,7 +21,7 @@ app.use(
     }),
   );
 
- app.use(cors(corsOptions))
+ 
  
 
 
